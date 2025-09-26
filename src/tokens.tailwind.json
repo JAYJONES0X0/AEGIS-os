@@ -1,0 +1,140 @@
+{
+  "colors": {
+    "core": {
+      "bg": "#0C0F13",
+      "bg2": "#11151B", 
+      "text": "#E7E9EC",
+      "text-2": "#AAB1BC",
+      "borderTranslucent": "rgba(255,255,255,0.16)",
+      "glassFill": "rgba(255,255,255,0.06)",
+      "brandGold": "#D4AF37"
+    },
+    "finance": {
+      "green": "#16A34A",
+      "red": "#DC2626"
+    },
+    "cyan": "#3AAED8"
+  },
+  "typography": {
+    "head": {
+      "h1": {
+        "fontFamily": "Inter",
+        "fontSize": "28px",
+        "lineHeight": "34px", 
+        "fontWeight": "700",
+        "letterSpacing": "-0.02em"
+      },
+      "h2": {
+        "fontFamily": "Inter",
+        "fontSize": "20px",
+        "lineHeight": "26px",
+        "fontWeight": "600"
+      }
+    },
+    "body": {
+      "default": {
+        "fontFamily": "Inter",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "fontWeight": "400"
+      }
+    },
+    "mono": {
+      "table": {
+        "fontFamily": "JetBrains Mono",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "fontWeight": "500"
+      }
+    }
+  },
+  "effects": {
+    "shadow": {
+      "deep": "0 40px 80px rgba(0,0,0,0.55)",
+      "cardInset": "inset 0 1px 0 rgba(212,175,55,0.08)"
+    },
+    "border": {
+      "glass": "1px solid rgba(255,255,255,0.16)"
+    },
+    "blur": {
+      "glass": "blur(18px) saturate(120%)"
+    }
+  },
+  "components": {
+    "aegis": {
+      "cardGlass": {
+        "background": "rgba(255,255,255,0.06)",
+        "border": "1px solid rgba(255,255,255,0.16)",
+        "borderRadius": "16px",
+        "backdropFilter": "blur(18px) saturate(120%)",
+        "boxShadow": "0 40px 80px rgba(0,0,0,0.55), inset 0 1px 0 rgba(212,175,55,0.08)"
+      },
+      "cardMetal": {
+        "background": "linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(0,0,0,0.14) 100%)",
+        "border": "1px solid rgba(255,255,255,0.16)",
+        "borderRadius": "16px",
+        "boxShadow": "0 40px 80px rgba(0,0,0,0.55), inset 0 1px 0 rgba(212,175,55,0.08)"
+      },
+      "buttonPrimaryMetal": {
+        "background": "linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(0,0,0,0.14) 100%)",
+        "border": "1px solid rgba(255,255,255,0.16)",
+        "borderRadius": "12px",
+        "padding": "12px 14px",
+        "focusRing": "3px solid rgba(212,175,55,0.18)"
+      },
+      "kpi": {
+        "background": "rgba(255,255,255,0.06)",
+        "border": "1px solid rgba(255,255,255,0.16)",
+        "borderRadius": "16px",
+        "backdropFilter": "blur(18px) saturate(120%)",
+        "boxShadow": "0 40px 80px rgba(0,0,0,0.55), inset 0 1px 0 rgba(212,175,55,0.08)",
+        "padding": "24px",
+        "animation": "aegis-breathe 6s cubic-bezier(0.19, 1, 0.22, 1) infinite"
+      }
+    }
+  },
+  "themes": {
+    "royalGold": {
+      "background": "linear-gradient(180deg, #0C0F13 0%, #11151B 100%)",
+      "orbs": [
+        {"color": "#D4AF37", "opacity": 0.30, "position": "top-right"},
+        {"color": "#8B5CF6", "opacity": 0.20, "position": "bottom-left"}
+      ]
+    },
+    "arcticSilver": {
+      "background": "linear-gradient(180deg, #EEF2F6 0%, #FFFFFF 100%)",
+      "orbs": [
+        {"color": "#C0C6CE", "opacity": 0.24, "position": "top-left"},
+        {"color": "#9FB4C8", "opacity": 0.18, "position": "bottom-right"}
+      ]
+    },
+    "emberGlass": {
+      "background": "linear-gradient(180deg, #120E22 0%, #19122E 100%)",
+      "orbs": [
+        {"color": "#FFB86B", "opacity": 0.28, "position": "top-left"},
+        {"color": "#6A5ACD", "opacity": 0.18, "position": "bottom-right"}
+      ]
+    }
+  },
+  "motion": {
+    "divine": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "animations": {
+      "breathe": "scale 1 → 1.03 → 1, 6s, infinite",
+      "float": "translateY ±8px, 10s, loop"
+    }
+  },
+  "hub": {
+    "assistants": {
+      "spacing": "32px",
+      "shadows": "0 40px 80px rgba(0,0,0,0.55)",
+      "colors": {
+        "carePlan": "#D4AF37",
+        "riskPBS": "#DC2626", 
+        "rota": "#16A34A",
+        "compliance": "#8B5CF6",
+        "finance": "#F59E0B",
+        "family": "#3AAED8"
+      }
+    }
+  }
+}

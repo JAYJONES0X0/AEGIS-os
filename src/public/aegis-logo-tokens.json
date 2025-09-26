@@ -1,0 +1,368 @@
+{
+  "aegis-logo-system": {
+    "version": "1.0.0",
+    "description": "AEGIS Theme-Aware Logo Component System with 20 institutional variants",
+    "variants": {
+      "dark-themes": {
+        "royal-dark": {
+          "theme": "royal-gold",
+          "mode": "dark",
+          "colors": {
+            "primary": "#D4AF37",
+            "secondary": "#B8941F",
+            "accent": "#F4E197",
+            "deep": "#8B7020"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 40px rgba(212, 175, 55, 0.6)) drop-shadow(0 0 80px rgba(212, 175, 55, 0.3)) saturate(1.3) brightness(1.2) contrast(1.1)",
+            "pulse": "drop-shadow(0 0 55px rgba(212, 175, 55, 0.9)) drop-shadow(0 0 100px rgba(212, 175, 55, 0.5)) saturate(1.4) brightness(1.3) contrast(1.15)"
+          },
+          "filename": "aegis-logo-royal-dark.png"
+        },
+        "arctic-dark": {
+          "theme": "arctic-silver",
+          "mode": "dark",
+          "colors": {
+            "primary": "#94A3B8",
+            "secondary": "#64748B",
+            "accent": "#CBD5E1",
+            "deep": "#475569"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(148, 163, 184, 0.4)) saturate(1.1) brightness(1.1) contrast(1.05)",
+            "pulse": "drop-shadow(0 0 45px rgba(148, 163, 184, 0.7)) saturate(1.2) brightness(1.2) contrast(1.1)"
+          },
+          "filename": "aegis-logo-arctic-dark.png"
+        },
+        "ember-dark": {
+          "theme": "ember-glass",
+          "mode": "dark",
+          "colors": {
+            "primary": "#FB923C",
+            "secondary": "#EA580C",
+            "accent": "#FED7AA",
+            "deep": "#C2410C"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(251, 146, 60, 0.4)) saturate(1.1) brightness(1.1) contrast(1.05)",
+            "pulse": "drop-shadow(0 0 45px rgba(251, 146, 60, 0.7)) saturate(1.2) brightness(1.2) contrast(1.1)"
+          },
+          "filename": "aegis-logo-ember-dark.png"
+        },
+        "midnight-dark": {
+          "theme": "midnight-navy",
+          "mode": "dark",
+          "colors": {
+            "primary": "#3B82F6",
+            "secondary": "#1D4ED8",
+            "accent": "#93C5FD",
+            "deep": "#1E40AF"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(59, 130, 246, 0.4)) saturate(1.1) brightness(1.1) contrast(1.05)",
+            "pulse": "drop-shadow(0 0 45px rgba(59, 130, 246, 0.7)) saturate(1.2) brightness(1.2) contrast(1.1)"
+          },
+          "filename": "aegis-logo-midnight-dark.png"
+        },
+        "verdant-dark": {
+          "theme": "verdant-jade",
+          "mode": "dark",
+          "colors": {
+            "primary": "#10B981",
+            "secondary": "#059669",
+            "accent": "#6EE7B7",
+            "deep": "#047857"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(16, 185, 129, 0.4)) saturate(1.1) brightness(1.1) contrast(1.05)",
+            "pulse": "drop-shadow(0 0 45px rgba(16, 185, 129, 0.7)) saturate(1.2) brightness(1.2) contrast(1.1)"
+          },
+          "filename": "aegis-logo-verdant-dark.png"
+        },
+        "obsidian-dark": {
+          "theme": "obsidian-black",
+          "mode": "dark",
+          "colors": {
+            "primary": "#6B7280",
+            "secondary": "#4B5563",
+            "accent": "#9CA3AF",
+            "deep": "#374151"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(107, 114, 128, 0.4)) saturate(1.1) brightness(1.1) contrast(1.05)",
+            "pulse": "drop-shadow(0 0 45px rgba(107, 114, 128, 0.7)) saturate(1.2) brightness(1.2) contrast(1.1)"
+          },
+          "filename": "aegis-logo-obsidian-dark.png"
+        },
+        "marble-dark": {
+          "theme": "marble-white",
+          "mode": "dark",
+          "colors": {
+            "primary": "#E5E7EB",
+            "secondary": "#D1D5DB",
+            "accent": "#F3F4F6",
+            "deep": "#9CA3AF"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(229, 231, 235, 0.4)) saturate(1.1) brightness(1.1) contrast(1.05)",
+            "pulse": "drop-shadow(0 0 45px rgba(229, 231, 235, 0.7)) saturate(1.2) brightness(1.2) contrast(1.1)"
+          },
+          "filename": "aegis-logo-marble-dark.png"
+        },
+        "crimson-dark": {
+          "theme": "crimson-ember",
+          "mode": "dark",
+          "colors": {
+            "primary": "#EF4444",
+            "secondary": "#DC2626",
+            "accent": "#FCA5A5",
+            "deep": "#B91C1C"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(239, 68, 68, 0.4)) saturate(1.1) brightness(1.1) contrast(1.05)",
+            "pulse": "drop-shadow(0 0 45px rgba(239, 68, 68, 0.7)) saturate(1.2) brightness(1.2) contrast(1.1)"
+          },
+          "filename": "aegis-logo-crimson-dark.png"
+        },
+        "sapphire-dark": {
+          "theme": "sapphire-steel",
+          "mode": "dark",
+          "colors": {
+            "primary": "#0EA5E9",
+            "secondary": "#0284C7",
+            "accent": "#7DD3FC",
+            "deep": "#0369A1"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(14, 165, 233, 0.4)) saturate(1.1) brightness(1.1) contrast(1.05)",
+            "pulse": "drop-shadow(0 0 45px rgba(14, 165, 233, 0.7)) saturate(1.2) brightness(1.2) contrast(1.1)"
+          },
+          "filename": "aegis-logo-sapphire-dark.png"
+        },
+        "onyx-dark": {
+          "theme": "onyx-frost",
+          "mode": "dark",
+          "colors": {
+            "primary": "#8B5CF6",
+            "secondary": "#7C3AED",
+            "accent": "#C4B5FD",
+            "deep": "#6D28D9"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(139, 92, 246, 0.4)) saturate(1.1) brightness(1.1) contrast(1.05)",
+            "pulse": "drop-shadow(0 0 45px rgba(139, 92, 246, 0.7)) saturate(1.2) brightness(1.2) contrast(1.1)"
+          },
+          "filename": "aegis-logo-onyx-dark.png"
+        }
+      },
+      "light-themes": {
+        "royal-light": {
+          "theme": "royal-gold",
+          "mode": "light",
+          "colors": {
+            "primary": "#D97706",
+            "secondary": "#A16207",
+            "accent": "#FED7AA",
+            "deep": "#92400E"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 45px rgba(217, 119, 6, 0.7)) drop-shadow(0 0 90px rgba(217, 119, 6, 0.4)) saturate(1.4) brightness(1.3) contrast(1.2)",
+            "pulse": "drop-shadow(0 0 60px rgba(217, 119, 6, 1.0)) drop-shadow(0 0 110px rgba(217, 119, 6, 0.6)) saturate(1.5) brightness(1.4) contrast(1.25)"
+          },
+          "filename": "aegis-logo-royal-light.png"
+        },
+        "arctic-light": {
+          "theme": "arctic-silver",
+          "mode": "light",
+          "colors": {
+            "primary": "#64748B",
+            "secondary": "#475569",
+            "accent": "#CBD5E1",
+            "deep": "#1E293B"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(100, 116, 139, 0.4)) saturate(1.1) brightness(1.2) contrast(1.1)",
+            "pulse": "drop-shadow(0 0 45px rgba(100, 116, 139, 0.7)) saturate(1.2) brightness(1.3) contrast(1.15)"
+          },
+          "filename": "aegis-logo-arctic-light.png"
+        },
+        "ember-light": {
+          "theme": "ember-glass",
+          "mode": "light",
+          "colors": {
+            "primary": "#EA580C",
+            "secondary": "#C2410C",
+            "accent": "#FED7AA",
+            "deep": "#9A3412"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(234, 88, 12, 0.4)) saturate(1.1) brightness(1.2) contrast(1.1)",
+            "pulse": "drop-shadow(0 0 45px rgba(234, 88, 12, 0.7)) saturate(1.2) brightness(1.3) contrast(1.15)"
+          },
+          "filename": "aegis-logo-ember-light.png"
+        },
+        "midnight-light": {
+          "theme": "midnight-navy",
+          "mode": "light",
+          "colors": {
+            "primary": "#2563EB",
+            "secondary": "#1D4ED8",
+            "accent": "#DBEAFE",
+            "deep": "#1E3A8A"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(37, 99, 235, 0.4)) saturate(1.1) brightness(1.2) contrast(1.1)",
+            "pulse": "drop-shadow(0 0 45px rgba(37, 99, 235, 0.7)) saturate(1.2) brightness(1.3) contrast(1.15)"
+          },
+          "filename": "aegis-logo-midnight-light.png"
+        },
+        "verdant-light": {
+          "theme": "verdant-jade",
+          "mode": "light",
+          "colors": {
+            "primary": "#059669",
+            "secondary": "#047857",
+            "accent": "#A7F3D0",
+            "deep": "#14532D"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(5, 150, 105, 0.4)) saturate(1.1) brightness(1.2) contrast(1.1)",
+            "pulse": "drop-shadow(0 0 45px rgba(5, 150, 105, 0.7)) saturate(1.2) brightness(1.3) contrast(1.15)"
+          },
+          "filename": "aegis-logo-verdant-light.png"
+        },
+        "obsidian-light": {
+          "theme": "obsidian-black",
+          "mode": "light",
+          "colors": {
+            "primary": "#8B5CF6",
+            "secondary": "#7C3AED",
+            "accent": "#C4B5FD",
+            "deep": "#6B21A8"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(139, 92, 246, 0.4)) saturate(1.1) brightness(1.2) contrast(1.1)",
+            "pulse": "drop-shadow(0 0 45px rgba(139, 92, 246, 0.7)) saturate(1.2) brightness(1.3) contrast(1.15)"
+          },
+          "filename": "aegis-logo-obsidian-light.png"
+        },
+        "marble-light": {
+          "theme": "marble-white",
+          "mode": "light",
+          "colors": {
+            "primary": "#71717A",
+            "secondary": "#52525B",
+            "accent": "#F4F4F5",
+            "deep": "#18181B"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(113, 113, 122, 0.4)) saturate(1.1) brightness(1.2) contrast(1.1)",
+            "pulse": "drop-shadow(0 0 45px rgba(113, 113, 122, 0.7)) saturate(1.2) brightness(1.3) contrast(1.15)"
+          },
+          "filename": "aegis-logo-marble-light.png"
+        },
+        "crimson-light": {
+          "theme": "crimson-ember",
+          "mode": "light",
+          "colors": {
+            "primary": "#DC2626",
+            "secondary": "#B91C1C",
+            "accent": "#FECACA",
+            "deep": "#991B1B"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(220, 38, 38, 0.4)) saturate(1.1) brightness(1.2) contrast(1.1)",
+            "pulse": "drop-shadow(0 0 45px rgba(220, 38, 38, 0.7)) saturate(1.2) brightness(1.3) contrast(1.15)"
+          },
+          "filename": "aegis-logo-crimson-light.png"
+        },
+        "sapphire-light": {
+          "theme": "sapphire-steel",
+          "mode": "light",
+          "colors": {
+            "primary": "#0284C7",
+            "secondary": "#0369A1",
+            "accent": "#BAE6FD",
+            "deep": "#0C4A6E"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(2, 132, 199, 0.4)) saturate(1.1) brightness(1.2) contrast(1.1)",
+            "pulse": "drop-shadow(0 0 45px rgba(2, 132, 199, 0.7)) saturate(1.2) brightness(1.3) contrast(1.15)"
+          },
+          "filename": "aegis-logo-sapphire-light.png"
+        },
+        "onyx-light": {
+          "theme": "onyx-frost",
+          "mode": "light",
+          "colors": {
+            "primary": "#10B981",
+            "secondary": "#047857",
+            "accent": "#A7F3D0",
+            "deep": "#065F46"
+          },
+          "filters": {
+            "base": "drop-shadow(0 0 30px rgba(16, 185, 129, 0.4)) saturate(1.1) brightness(1.2) contrast(1.1)",
+            "pulse": "drop-shadow(0 0 45px rgba(16, 185, 129, 0.7)) saturate(1.2) brightness(1.3) contrast(1.15)"
+          },
+          "filename": "aegis-logo-onyx-light.png"
+        }
+      }
+    },
+    "sizes": {
+      "sm": {
+        "logoSize": "3rem",
+        "outerGlow": "3rem",
+        "innerGlow": "2.5rem",
+        "pixels": 48
+      },
+      "md": {
+        "logoSize": "5rem",
+        "outerGlow": "5rem",
+        "innerGlow": "4rem",
+        "pixels": 80
+      },
+      "lg": {
+        "logoSize": "8rem",
+        "outerGlow": "8rem",
+        "innerGlow": "6rem",
+        "pixels": 128
+      },
+      "xl": {
+        "logoSize": "12rem",
+        "outerGlow": "12rem",
+        "innerGlow": "10rem",
+        "pixels": 192
+      },
+      "central": {
+        "logoSize": "25vw",
+        "outerGlow": "25vw",
+        "innerGlow": "25vw",
+        "responsive": true
+      }
+    },
+    "exportOptions": {
+      "formats": ["PNG", "SVG", "WebP"],
+      "resolutions": {
+        "1K": { "width": 1024, "height": 1024 },
+        "2K": { "width": 2048, "height": 2048 },
+        "4K": { "width": 4096, "height": 4096 },
+        "8K": { "width": 8192, "height": 8192 }
+      },
+      "transparency": true,
+      "naming": "aegis-logo-{variant}-{resolution}.{format}"
+    },
+    "features": [
+      "theme-aware",
+      "animated-pulse",
+      "responsive-sizing",
+      "background-toggle", 
+      "click-handler",
+      "export-ready"
+    ],
+    "usage": {
+      "automatic": "<AegisLogo size='md' enableAnimation={true} />",
+      "specificVariant": "<AegisLogo variant='royal-dark' size='lg' showBackground={false} />",
+      "clickable": "<AegisLogo size='central' onClick={() => navigateHome()} />"
+    }
+  }
+}

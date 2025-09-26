@@ -1,0 +1,128 @@
+{
+  "colors": {
+    "foundation": {
+      "black": "#0C0F13",
+      "charcoal": "#12161C",
+      "slate": "#1B1F26",
+      "steel": "#1F1F1F"
+    },
+    "divine": {
+      "gold": "#D4AF37",
+      "goldMuted": "rgba(212, 175, 55, 0.08)",
+      "goldBorder": "rgba(212, 175, 55, 0.12)",
+      "goldGlow": "rgba(212, 175, 55, 0.15)"
+    },
+    "text": {
+      "primary": "#F2F3F5",
+      "secondary": "#E6E7E9", 
+      "muted": "#B4B7BD",
+      "subtle": "#8D9199"
+    },
+    "tabs": {
+      "home": {
+        "background": "#0C0F13",
+        "accent": "#D4AF37"
+      },
+      "clients": {
+        "background": "#0C0F13", 
+        "accent": "#2E888F"
+      },
+      "workforce": {
+        "background": "#0C0F13",
+        "accent": "#3AAED8"
+      },
+      "quality": {
+        "background": "#0A1A33",
+        "accent": "#D4AF37",
+        "parchment": "rgba(212, 175, 55, 0.04)"
+      },
+      "emar": {
+        "background": "#FFFFFF",
+        "accent": "#1D4ED8",
+        "pulse": "rgba(29, 78, 216, 0.08)"
+      },
+      "finance": {
+        "background": "#0C0F13",
+        "success": "#16A34A",
+        "danger": "#DC2626",
+        "hover": "rgba(27, 31, 38, 0.5)"
+      },
+      "analytics": {
+        "background": "#0C0F13",
+        "gradient": "linear-gradient(135deg, rgba(26, 16, 53, 0.06) 0%, rgba(15, 23, 42, 0.10) 100%)",
+        "grid": "#2B3140",
+        "accent": "rgba(139, 92, 246, 0.6)"
+      },
+      "admin": {
+        "background": "#1F1F1F",
+        "accent": "#EA580C"
+      }
+    },
+    "ceremonial": {
+      "shadow": "rgba(0, 0, 0, 0.65)",
+      "highlight": "rgba(212, 175, 55, 0.08)"
+    },
+    "status": {
+      "success": "#16a34a",
+      "warning": "#f59e0b",
+      "danger": "#dc2626",
+      "info": "#3b82f6"
+    }
+  },
+  "spacing": {
+    "0": "0px",
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px",
+    "8": "32px",
+    "10": "40px",
+    "12": "48px",
+    "16": "64px",
+    "20": "80px",
+    "24": "96px"
+  },
+  "borderRadius": {
+    "none": "0px",
+    "sm": "4px",
+    "md": "6px",
+    "lg": "8px",
+    "xl": "12px",
+    "2xl": "16px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "card": "0 32px 48px 0 rgba(0, 0, 0, 0.65)",
+    "modal": "0 40px 80px 0 rgba(0, 0, 0, 0.70)", 
+    "ceremonial": "0 24px 48px 0 rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(212, 175, 55, 0.08)",
+    "activeGlow": "0 0 0 1px rgba(212, 175, 55, 0.28), 0 6px 18px rgba(0, 0, 0, 0.45)",
+    "insetHighlight": "inset 0 1px 0 rgba(212, 175, 55, 0.08)",
+    "insetGlow": "inset 0 0 6px rgba(212, 175, 55, 0.08)"
+  },
+  "motion": {
+    "easing": {
+      "divine": "cubic-bezier(0.19, 1, 0.22, 1)"
+    },
+    "duration": {
+      "active": "180ms",
+      "transition": "350ms",
+      "sonarPulse": "2800ms"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "interface": "Inter, system-ui, sans-serif",
+      "data": "JetBrains Mono, ui-monospace, monospace"
+    },
+    "fontWeights": {
+      "heading": "700",
+      "body": "400", 
+      "mono": "500"
+    },
+    "letterSpacing": {
+      "heading": "-0.02em"
+    }
+  }
+}

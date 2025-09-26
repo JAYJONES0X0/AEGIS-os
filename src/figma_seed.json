@@ -1,0 +1,406 @@
+{
+  "organisations": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Aegis Care West",
+      "type": "Residential Care",
+      "cqc_registration": "1-1234567890",
+      "registered_manager": "BROOKLYN JOHN R",
+      "location": "Bristol, UK",
+      "created_at": "2023-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002", 
+      "name": "Aegis Supported Living North",
+      "type": "Supported Living",
+      "cqc_registration": "1-1234567891",
+      "registered_manager": "BROOKLYN JOHN R",
+      "location": "Manchester, UK",
+      "created_at": "2023-03-22T00:00:00.000Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "Aegis Homecare South", 
+      "type": "Domiciliary Care",
+      "cqc_registration": "1-1234567892",
+      "registered_manager": "BROOKLYN JOHN R",
+      "location": "Brighton, UK",
+      "created_at": "2023-05-10T00:00:00.000Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "c1111111-1111-1111-1111-111111111111",
+      "org_id": "550e8400-e29b-41d4-a716-446655440001",
+      "nhs_number": "9876543210",
+      "first_name": "John",
+      "last_name": "Smith",
+      "dob": "1945-03-15",
+      "rag": "G",
+      "risk_level": "Low",
+      "care_plan": "Supported Living",
+      "primary_diagnosis": "Dementia - Early Stage",
+      "mobility": "Independent with walking aid",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c2222222-2222-2222-2222-222222222222",
+      "org_id": "550e8400-e29b-41d4-a716-446655440001",
+      "nhs_number": "9876543211",
+      "first_name": "Mary",
+      "last_name": "Johnson",
+      "dob": "1938-07-22",
+      "rag": "A",
+      "risk_level": "Medium",
+      "care_plan": "Residential Care",
+      "primary_diagnosis": "Diabetes Type 2, Hypertension",
+      "mobility": "Requires assistance",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c3333333-3333-3333-3333-333333333333",
+      "org_id": "550e8400-e29b-41d4-a716-446655440001",
+      "nhs_number": "9876543212",
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "dob": "1952-11-08",
+      "rag": "R",
+      "risk_level": "High",
+      "care_plan": "Nursing Care",
+      "primary_diagnosis": "Parkinson's Disease, Falls Risk",
+      "mobility": "Wheelchair bound",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c4444444-4444-4444-4444-444444444444",
+      "org_id": "550e8400-e29b-41d4-a716-446655440002",
+      "nhs_number": "9876543213",
+      "first_name": "Susan",
+      "last_name": "Davis",
+      "dob": "1965-12-03",
+      "rag": "G",
+      "risk_level": "Low",
+      "care_plan": "Supported Living",
+      "primary_diagnosis": "Learning Disability",
+      "mobility": "Fully independent",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c5555555-5555-5555-5555-555555555555",
+      "org_id": "550e8400-e29b-41d4-a716-446655440002",
+      "nhs_number": "9876543214",
+      "first_name": "Michael",
+      "last_name": "Wilson",
+      "dob": "1958-04-17",
+      "rag": "A",
+      "risk_level": "Medium", 
+      "care_plan": "Supported Living",
+      "primary_diagnosis": "Autism, Anxiety Disorder",
+      "mobility": "Independent",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "n1111111-1111-1111-1111-111111111111",
+      "client_id": "c1111111-1111-1111-1111-111111111111",
+      "author": "Alice Cooper",
+      "author_role": "Senior Nurse",
+      "template": "Daily Care",
+      "content": {
+        "mood": "Good spirits today",
+        "nutrition": "Ate full breakfast and lunch, declined afternoon snack",
+        "activities": "Participated in group activities, watched television",
+        "medications": "All medications taken as prescribed",
+        "concerns": "None noted",
+        "next_actions": "Continue current care plan"
+      },
+      "tags": ["mobility", "social", "medication-compliance"],
+      "created_at": "2024-01-17T14:30:00.000Z"
+    },
+    {
+      "id": "n2222222-2222-2222-2222-222222222222", 
+      "client_id": "c2222222-2222-2222-2222-222222222222",
+      "author": "Bob Wilson",
+      "author_role": "Support Worker",
+      "template": "Daily Care",
+      "content": {
+        "mood": "Anxious about upcoming GP appointment",
+        "nutrition": "Good appetite, blood glucose levels stable",
+        "activities": "Preferred quiet activities today",
+        "medications": "Insulin administered as scheduled",
+        "concerns": "Slight increase in anxiety levels",
+        "next_actions": "Monitor anxiety, consider relaxation techniques"
+      },
+      "tags": ["diabetes", "anxiety", "gp-appointment"],
+      "created_at": "2024-01-17T13:15:00.000Z"
+    },
+    {
+      "id": "n3333333-3333-3333-3333-333333333333",
+      "client_id": "c3333333-3333-3333-3333-333333333333", 
+      "author": "Carol Davis",
+      "author_role": "Nurse",
+      "template": "Falls Risk Assessment",
+      "content": {
+        "mobility_today": "Increased tremor noted in morning",
+        "transfers": "Required two-person assist for all transfers",
+        "falls_risk": "High - reviewed safety measures",
+        "medication_effects": "L-Dopa timing adjusted with GP consent",
+        "environment": "Non-slip mats checked, call bell within reach",
+        "concerns": "Tremor more pronounced than usual"
+      },
+      "tags": ["falls-risk", "parkinsons", "medication-adjustment"],
+      "created_at": "2024-01-17T12:45:00.000Z"
+    }
+  ],
+  "mar_rounds": [
+    {
+      "id": "m1111111-1111-1111-1111-111111111111",
+      "client_id": "c1111111-1111-1111-1111-111111111111",
+      "scheduled_at": "2024-01-17T08:00:00.000Z",
+      "round_type": "Morning",
+      "status": "completed",
+      "entries": [
+        {
+          "medication": "Donepezil 5mg",
+          "dose": "1 tablet",
+          "route": "Oral",
+          "scheduled_time": "08:00",
+          "actual_time": "08:05",
+          "outcome": "given",
+          "administered_by": "Alice Cooper",
+          "witness": null,
+          "notes": "Taken with breakfast"
+        },
+        {
+          "medication": "Memantine 10mg", 
+          "dose": "1 tablet",
+          "route": "Oral",
+          "scheduled_time": "08:00",
+          "actual_time": "08:05",
+          "outcome": "given",
+          "administered_by": "Alice Cooper",
+          "witness": null,
+          "notes": "No issues"
+        }
+      ]
+    },
+    {
+      "id": "m2222222-2222-2222-2222-222222222222",
+      "client_id": "c2222222-2222-2222-2222-222222222222",
+      "scheduled_at": "2024-01-17T18:00:00.000Z", 
+      "round_type": "Evening",
+      "status": "due",
+      "entries": [
+        {
+          "medication": "Metformin 500mg",
+          "dose": "2 tablets",
+          "route": "Oral", 
+          "scheduled_time": "18:00",
+          "actual_time": null,
+          "outcome": "due",
+          "administered_by": null,
+          "witness": null,
+          "notes": null
+        },
+        {
+          "medication": "Lisinopril 10mg",
+          "dose": "1 tablet",
+          "route": "Oral",
+          "scheduled_time": "18:00", 
+          "actual_time": null,
+          "outcome": "due",
+          "administered_by": null,
+          "witness": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "m3333333-3333-3333-3333-333333333333",
+      "client_id": "c3333333-3333-3333-3333-333333333333",
+      "scheduled_at": "2024-01-17T12:00:00.000Z",
+      "round_type": "Midday",
+      "status": "omitted",
+      "entries": [
+        {
+          "medication": "Levodopa 100mg/Carbidopa 25mg",
+          "dose": "1 tablet",
+          "route": "Oral",
+          "scheduled_time": "12:00",
+          "actual_time": null,
+          "outcome": "omitted",
+          "administered_by": "Bob Wilson",
+          "witness": null,
+          "notes": "Client refused due to nausea - GP contacted"
+        }
+      ]
+    }
+  ],
+  "shifts": [
+    {
+      "id": "s1111111-1111-1111-1111-111111111111",
+      "org_id": "550e8400-e29b-41d4-a716-446655440001",
+      "user_name": "Alice Cooper",
+      "role": "Senior Nurse",
+      "start_at": "2024-01-17T08:00:00.000Z",
+      "end_at": "2024-01-17T16:00:00.000Z",
+      "location": "Oakwood House",
+      "status": "confirmed"
+    },
+    {
+      "id": "s2222222-2222-2222-2222-222222222222",
+      "org_id": "550e8400-e29b-41d4-a716-446655440001", 
+      "user_name": null,
+      "role": "Support Worker",
+      "start_at": "2024-01-18T16:00:00.000Z",
+      "end_at": "2024-01-19T00:00:00.000Z",
+      "location": "Oakwood House", 
+      "status": "vacancy"
+    },
+    {
+      "id": "s3333333-3333-3333-3333-333333333333",
+      "org_id": "550e8400-e29b-41d4-a716-446655440001",
+      "user_name": null,
+      "role": "Night Nurse",
+      "start_at": "2024-01-19T00:00:00.000Z", 
+      "end_at": "2024-01-19T08:00:00.000Z",
+      "location": "Oakwood House",
+      "status": "vacancy"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "i1111111-1111-1111-1111-111111111111",
+      "client_id": "c2222222-2222-2222-2222-222222222222",
+      "org_id": "550e8400-e29b-41d4-a716-446655440001",
+      "type": "Fall", 
+      "severity": "Minor",
+      "location": "Bedroom",
+      "description": "Client slipped getting out of bed, no injuries sustained",
+      "immediate_action": "Assessed by nurse, no medical attention required",
+      "reporter": "Alice Cooper",
+      "status": "Under Investigation",
+      "priority": "Medium",
+      "occurred_at": "2024-01-16T15:30:00.000Z",
+      "reported_at": "2024-01-16T15:45:00.000Z"
+    },
+    {
+      "id": "i2222222-2222-2222-2222-222222222222",
+      "client_id": "c3333333-3333-3333-3333-333333333333",
+      "org_id": "550e8400-e29b-41d4-a716-446655440001",
+      "type": "Medication Error",
+      "severity": "Moderate", 
+      "location": "Medication Room",
+      "description": "Incorrect dose of Levodopa administered (2 tablets instead of 1)",
+      "immediate_action": "GP contacted immediately, client monitored closely",
+      "reporter": "Bob Wilson", 
+      "status": "Closed",
+      "priority": "High",
+      "occurred_at": "2024-01-15T08:00:00.000Z",
+      "reported_at": "2024-01-15T08:15:00.000Z"
+    }
+  ],
+  "audits": [
+    {
+      "id": "a1111111-1111-1111-1111-111111111111",
+      "org_id": "550e8400-e29b-41d4-a716-446655440001",
+      "title": "Medication Management",
+      "type": "Internal",
+      "framework": "CQC",
+      "assigned_to": "Alice Cooper",
+      "due_date": "2024-01-20T00:00:00.000Z",
+      "status": "In Progress",
+      "compliance_score": 85,
+      "areas_assessed": ["Storage", "Administration", "Recording", "Training"],
+      "created_at": "2024-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "a2222222-2222-2222-2222-222222222222", 
+      "org_id": "550e8400-e29b-41d4-a716-446655440001",
+      "title": "Infection Control",
+      "type": "Internal", 
+      "framework": "CQC",
+      "assigned_to": "Bob Wilson",
+      "due_date": "2024-01-15T00:00:00.000Z",
+      "status": "Overdue",
+      "compliance_score": 72,
+      "areas_assessed": ["Hand Hygiene", "PPE Usage", "Cleaning Protocols", "Waste Management"],
+      "created_at": "2024-01-05T00:00:00.000Z"
+    }
+  ],
+  "policies": [
+    {
+      "id": "p1111111-1111-1111-1111-111111111111",
+      "title": "Safeguarding Adults",
+      "version": "v4.0",
+      "effective_date": "2024-01-01T00:00:00.000Z",
+      "review_date": "2025-01-01T00:00:00.000Z",
+      "acknowledgment_required": true,
+      "total_staff": 15,
+      "acknowledged_count": 11,
+      "status": "Updated"
+    }
+  ],
+  "training_alerts": [
+    {
+      "id": "t1111111-1111-1111-1111-111111111111",
+      "staff_name": "Alice Cooper",
+      "certificate": "Moving & Handling",
+      "expires_at": "2024-02-15T00:00:00.000Z",
+      "status": "Expiring Soon",
+      "priority": "Medium"
+    },
+    {
+      "id": "t2222222-2222-2222-2222-222222222222",
+      "staff_name": "Bob Wilson", 
+      "certificate": "Safeguarding Level 2",
+      "expires_at": "2024-02-28T00:00:00.000Z",
+      "status": "Expiring Soon",
+      "priority": "High"
+    },
+    {
+      "id": "t3333333-3333-3333-3333-333333333333",
+      "staff_name": "Carol Davis",
+      "certificate": "First Aid",
+      "expires_at": "2024-03-10T00:00:00.000Z", 
+      "status": "Expiring Soon",
+      "priority": "Medium"
+    }
+  ],
+  "kpis": {
+    "global": {
+      "mar_omissions": 3,
+      "incidents_today": 2,
+      "training_expiring": 7,
+      "rota_gaps": 6,
+      "compliance_score": 94,
+      "active_clients": 45,
+      "staff_utilisation": 87,
+      "overdue_audits": 1
+    },
+    "by_org": {
+      "550e8400-e29b-41d4-a716-446655440001": {
+        "mar_omissions": 1,
+        "incidents_today": 1, 
+        "training_expiring": 3,
+        "rota_gaps": 2,
+        "active_clients": 15
+      },
+      "550e8400-e29b-41d4-a716-446655440002": {
+        "mar_omissions": 1,
+        "incidents_today": 0,
+        "training_expiring": 2,
+        "rota_gaps": 2,
+        "active_clients": 15
+      },
+      "550e8400-e29b-41d4-a716-446655440003": {
+        "mar_omissions": 1,
+        "incidents_today": 1,
+        "training_expiring": 2, 
+        "rota_gaps": 2,
+        "active_clients": 15
+      }
+    }
+  }
+}
